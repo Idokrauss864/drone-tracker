@@ -1,0 +1,26 @@
+html, body, #root { height: 100%; margin: 0; padding: 0; }
+body { display: block; background: #111; color: #fff; }
+
+/* MapLibre popup base styles - prevent stretching */
+.maplibregl-popup {
+  max-width: 260px !important;
+  width: auto !important;
+}
+
+.maplibregl-popup-content {
+  padding: 8px 10px !important;
+}
+
+/* Drone tooltip specific styling */
+.maplibregl-popup.drone-tooltip .maplibregl-popup-content {
+  background: rgba(17, 17, 17, 0.92) !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
+  font-size: 12px !important;
+  line-height: 1.35 !important;
+}
+
+.maplibregl-popup.drone-tooltip .maplibregl-popup-tip {
+  border-top-color: rgba(17, 17, 17, 0.92) !important;
+}

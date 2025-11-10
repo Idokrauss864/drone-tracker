@@ -1,0 +1,9 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+.app-root {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
