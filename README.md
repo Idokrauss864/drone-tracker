@@ -240,7 +240,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👤 Author
 
-Your Name - [@yourusername](https://github.com/yourusername)
+Your Name - [@Idokrauss864](https://github.com/Idokrauss864)
 
 ## 🙏 Acknowledgments
 
